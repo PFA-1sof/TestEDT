@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f4d19f-f7a6-4aa5-b237-44c30eda7ac2">
+  <producedTypes>
+    <objectType typeId="c076da28-c766-4054-9bb0-662a01e183ef" valueTypeId="27c6c7e1-20a5-467e-90b5-bc4a7f8b138e"/>
+    <refType typeId="343aeedd-184e-448d-b4cc-4f2d654762a1" valueTypeId="b3796239-78b5-4ab2-a15e-88c414b930d3"/>
+    <selectionType typeId="b7f4f65b-ad6d-438b-9c62-05aeec0a1acc" valueTypeId="c74f9159-55f4-4b36-9c1b-837ccef24556"/>
+    <listType typeId="00d111c9-9782-4c29-a2e5-d3d20fd86d99" valueTypeId="c9313b18-2dfb-4a5a-98f7-7f6df71b2d87"/>
+    <managerType typeId="3de845ed-13aa-4375-82ab-6c5a2fdae3e6" valueTypeId="bed1b7ba-13dd-4039-a47b-b5cbe9927a83"/>
+    <containerType typeId="ef085a65-f22e-4c1d-8f5d-b50f19d7916e" valueTypeId="b11ac889-b952-412d-b104-8b685d1eb8dd"/>
+  </producedTypes>
+  <name>Субконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Субконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Субконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСубконто</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияСубконто</types>
+    <types>CatalogRef.Договора</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Склады</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2bd57b27-60a8-4e58-9258-de3b732db094">
+      <name>МестаХранения</name>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="01bc84e2-0430-4dc1-bbd2-5b67f9fec0be">
+      <name>Контрагент</name>
+      <description>Контрагент</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="f0514380-1e13-441f-9fda-a1b719039b48">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

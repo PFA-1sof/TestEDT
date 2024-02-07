@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91345980-00eb-4f59-afc9-a82fd131b8dc">
+  <producedTypes>
+    <selectionType typeId="56fa5758-9f84-4cdc-b954-44817be5143e" valueTypeId="a52400e5-d47c-4abe-a3c0-d2f0881420ca"/>
+    <listType typeId="6668d9e7-6521-4962-819a-8a4546000873" valueTypeId="8e457716-9dd4-439c-acfd-14c2eee01eb5"/>
+    <managerType typeId="d80070d8-e168-4054-9524-c85aae291978" valueTypeId="1abb86f7-71a4-429f-a512-1fc1a99a1408"/>
+    <recordSetType typeId="4d8451fd-7126-46d3-b940-0336bffc6bf3" valueTypeId="fc8a007d-61a2-4eef-ace8-92666ee916f4"/>
+    <recordKeyType typeId="88481f47-bca4-428d-9ce3-e48b44fdce1d" valueTypeId="9b1c6344-9ece-4df6-9edd-143ff256a84b"/>
+    <recordType typeId="7f28351a-10ed-4710-99f4-46fda2b8b03b" valueTypeId="e2c206de-1593-4bd4-b820-7da8226e67dd"/>
+    <recordManagerType typeId="6a57cc50-1f18-43c1-8d84-1c43add2194e" valueTypeId="74f6d556-94bf-46b8-a7d0-eccfd6bf5a95"/>
+  </producedTypes>
+  <name>СвойстваСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства складов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="19ca2cf7-395e-4c91-8cd1-cae1dbeaf762">
+    <name>ЗначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение свойства</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.СвойстваСкладов.Dimension.Свойство</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9bc54484-1c55-4919-b086-bd4c74b38737">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a1bfca85-d653-46eb-a601-f0e85600cd9d">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

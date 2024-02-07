@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb5f5b60-3ce3-446e-bfc5-7b109957f5cf">
+  <producedTypes>
+    <refType typeId="f478c599-412e-4e7d-b85b-f177864589dc" valueTypeId="4c41088b-d4dd-4240-b174-eeef6241d98b"/>
+    <listType typeId="c914ad42-7da9-4a00-83bf-ef6e86fe64da" valueTypeId="ff84a9ef-7a11-4161-b77c-5e5230e55624"/>
+    <managerType typeId="ba0a10e2-7d6f-4685-933d-c4125a58980c" valueTypeId="0199a9b6-5319-4852-b55c-74f0aedf05ee"/>
+  </producedTypes>
+  <name>ВидыКартинок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды картинок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="caec1b82-816e-4c9b-91d2-0264d656eb8d">
+    <name>ЛоготипМалый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип малый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7898918-860f-4f8c-b91b-0f0af70e1bdc">
+    <name>ЛоготипБольшой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип большой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

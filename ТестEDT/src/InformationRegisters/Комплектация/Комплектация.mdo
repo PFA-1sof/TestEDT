@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e63a38d-3d6e-4e2c-b505-c08231d94b9d">
+  <producedTypes>
+    <selectionType typeId="bccf26c7-2c91-4d84-9b62-b397144cb9ff" valueTypeId="ab081ef4-1ded-442e-8305-9ff8219410d7"/>
+    <listType typeId="b7d3b4e4-2aca-4b4a-97fb-30154bb3a108" valueTypeId="305c853f-79cf-49dc-8886-ef8fe6762df4"/>
+    <managerType typeId="8ef57988-0334-4360-82bd-8f44b271cb75" valueTypeId="4b30a2cc-4567-484d-86d9-c0d5dfe0e82d"/>
+    <recordSetType typeId="73892e8d-cf0e-4656-8840-333c585b4da5" valueTypeId="637533ad-0147-428e-b9fa-22a9fd9d6f4c"/>
+    <recordKeyType typeId="e918e777-4499-442d-bd50-9cc72a12362a" valueTypeId="4d071a91-8aac-4314-8bf6-9321f93c16c0"/>
+    <recordType typeId="bcf4ec7c-9ff6-4058-8841-722b29f7ef7e" valueTypeId="2c498835-0352-420d-aa86-642658707120"/>
+    <recordManagerType typeId="524b287a-ced7-45e3-92cf-8f124dd377d0" valueTypeId="8c8c0ae4-780d-4c46-ac62-8406916b83b0"/>
+  </producedTypes>
+  <name>Комплектация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Комплектация.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cd48cc95-858b-4641-abe2-1a17edcb6e47">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4288a53b-e845-419d-9824-a6eb0074e8ba">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="083f4036-90cf-4209-a03f-c082c5eed7ca">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="448c89c7-182c-44bd-b2bb-8ce22654e052">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82726b9-013f-4ab1-a538-5ba763e1356b">
+  <producedTypes>
+    <objectType typeId="239da0fa-e79f-4f69-a7e6-89ce23e5ec2e" valueTypeId="b4aa64dc-e49e-4dfd-ad9a-4eb86fcb3908"/>
+    <refType typeId="75e5961f-f66b-4452-8748-3efccfd2b8fb" valueTypeId="331f3f74-cb90-4fec-b54b-1c30747f9789"/>
+    <selectionType typeId="122f92e6-a126-4db1-a2bd-d1342236c800" valueTypeId="c81caaf8-9618-42a4-bfab-9ef688784bba"/>
+    <listType typeId="3b6e5e4a-c568-46c2-90c5-d156df957d32" valueTypeId="91ee362b-6d94-4af7-a8d2-204c839e8b70"/>
+    <managerType typeId="28ed57e9-534c-4e9d-9375-bc19c5e27fb1" valueTypeId="e70d6059-c9f4-4214-97b8-12821b3caad7"/>
+    <extDimensionTypes typeId="9383d3dc-3b4c-4215-b2c2-c6c9c44412b4" valueTypeId="23c6caf9-7da8-4796-b0dd-7481cd7e96ee"/>
+    <extDimensionTypesRow typeId="07a66d08-552b-4bdd-b852-191d73497e03" valueTypeId="fef0be07-51e6-4274-9897-abc78694b616"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.Субконто</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="5b3aa387-2cba-43c9-ab8f-ef7d07b28c97">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41</code>
+      <accountingFlags>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.Субконто.МестаХранения</characteristicType>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.Субконто.Номенклатура</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="78010663-7f89-4c7f-8924-09197b1ffa9c">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code>60</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.Субконто.Контрагент</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="81ceec7c-8840-4148-8dfe-193c86aef2e6">
+      <name>Покупатели</name>
+      <description>Покупатели</description>
+      <code>62</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.Субконто.Контрагент</characteristicType>
+      </extDimensionTypes>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <accountingFlags uuid="e971bb27-b4ac-4901-9145-6ed74c1fc8e5">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+</mdclass:ChartOfAccounts>

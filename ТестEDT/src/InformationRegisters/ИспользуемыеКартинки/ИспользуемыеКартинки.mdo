@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f38cd56b-faa1-4124-bddd-7cae2c81abc6">
+  <producedTypes>
+    <selectionType typeId="968ef8a9-74d5-411e-a51b-d7345cdb5f9c" valueTypeId="55f52708-8ab3-4017-9e61-44ba1fadb82a"/>
+    <listType typeId="d6f74708-74a8-4020-8490-a023a7d27ea6" valueTypeId="4fa66bf6-e6e4-4e8c-a48e-84f516ecb877"/>
+    <managerType typeId="1a4015eb-e049-490e-8247-df318091640e" valueTypeId="604544c4-1174-42d1-84e5-d932c795b189"/>
+    <recordSetType typeId="90b371ec-360b-4582-8815-d411f00c7157" valueTypeId="d3d266cf-e972-425f-bdc7-1aecf7c6f660"/>
+    <recordKeyType typeId="1bc6d8ab-6542-49b4-b0a3-5d14633d0eba" valueTypeId="3f51afab-58e2-48e0-b1ef-a97630593fe5"/>
+    <recordType typeId="e51b3009-6f0a-43f2-9c61-ded80d839b1a" valueTypeId="f8b6141d-4fda-4663-8db6-6d0c448fadb0"/>
+    <recordManagerType typeId="b3d5a145-7bb8-45f2-9d57-3c6e35ab19a8" valueTypeId="f7004094-2489-4113-b009-b6144c73a20d"/>
+  </producedTypes>
+  <name>ИспользуемыеКартинки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемые картинки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ccb121bd-823a-4473-a56f-8555a58a6928">
+    <name>ДДКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДДКартинки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1830b72c-1cc3-4558-99d5-b2232ec29646">
+    <name>ВидКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид картинки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыКартинок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

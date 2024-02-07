@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3ea0274-bae8-4c3d-8054-920f59b2457f">
+  <producedTypes>
+    <managerType typeId="b68e8fac-0bfb-4a3c-b8b4-eeb47f79bd7e" valueTypeId="b21d28d4-3ac6-4447-b7ed-8bfe535b6d0b"/>
+    <valueManagerType typeId="05c6bccc-3d7d-437d-b183-539715141e5b" valueTypeId="426e72ba-0a26-4bfd-8fb8-071f2805c379"/>
+    <valueKeyType typeId="63828d6f-84d6-5ff5-9413-8acc1c0f2e20" valueTypeId="a2c276f4-1250-555f-a43f-86a42ad2bfd5"/>
+  </producedTypes>
+  <name>ЛоготипКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип компании</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

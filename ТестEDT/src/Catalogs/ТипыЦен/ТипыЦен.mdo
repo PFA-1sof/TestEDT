@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="559aff0e-e2f0-4f9b-9ed9-e668be3f37c1">
+  <producedTypes>
+    <objectType typeId="565cd38c-7165-4f4e-932c-989bf423763d" valueTypeId="68ea7855-17be-407a-a00c-90021b0ba932"/>
+    <refType typeId="7e558a79-ae96-4ecc-a16e-d353eb845acc" valueTypeId="2a8568c7-532d-4031-bc25-3ecfe383dc4d"/>
+    <selectionType typeId="b89ecae7-ea31-44cd-8ede-e98986acb1ec" valueTypeId="34cdfb2a-ac98-4c4b-ba84-27655256d6da"/>
+    <listType typeId="dccc8eb7-53b0-4311-a434-5b4bfd3fdbee" valueTypeId="78ee7984-4aee-46c3-a7db-eee961371f56"/>
+    <managerType typeId="7565b986-02da-4786-9644-261229b39113" valueTypeId="3bc169ee-407b-48a7-bca3-57f1083e2fb5"/>
+  </producedTypes>
+  <name>ТипыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d1d2e8cf-1781-484b-812b-27fe8793db16">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

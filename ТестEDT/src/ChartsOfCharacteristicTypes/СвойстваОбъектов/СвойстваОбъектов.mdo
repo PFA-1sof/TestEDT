@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72f10cc7-a20b-4bcf-96d5-21398fb4d00d">
+  <producedTypes>
+    <objectType typeId="329d76bf-68fd-402d-b392-f2380f13504c" valueTypeId="97c4e241-c7ab-4604-9d89-f0f24011332c"/>
+    <refType typeId="edba89c6-b57d-47ce-8b9c-6fd2b906318c" valueTypeId="77861cdc-0ea7-42ac-a6bd-b1bc0b66ce24"/>
+    <selectionType typeId="d6b05c54-5d42-4ddf-b1ca-dee44c65108d" valueTypeId="0a1576d0-0618-4407-9e7d-efb4a1930808"/>
+    <listType typeId="f72abb5e-6f5e-49bd-8f85-16c375095780" valueTypeId="809b92b2-c813-4414-97f0-47e2ae677499"/>
+    <managerType typeId="45d8c151-2f2e-4ef5-a0bd-7dcdf8749d00" valueTypeId="36e55912-a2fb-4209-9b96-a47904e4d7e6"/>
+    <containerType typeId="3768b150-976b-4f37-bab7-e681ae6a6f05" valueTypeId="fc3ca919-40de-4a67-85ff-0433398b3675"/>
+  </producedTypes>
+  <name>СвойстваОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойствОбъектов</characteristicExtValues>
+  <type>
+    <types>EnumRef.ВидыНоменклатуры</types>
+    <types>CatalogRef.Договора</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Серии</types>
+    <types>Boolean</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.ТипыЦен</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ХарактеристикаНоменклатуры</types>
+    <types>CatalogRef.ПользовательскиеНастройки</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Склады</types>
+    <types>EnumRef.ВидыКартинок</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="33e75310-4306-48dc-8031-19ccc7e6138f">
+      <name>Вес</name>
+      <description>Вес</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="62ea7f86-db36-4694-9729-d518c1919fc9">
+      <name>Высота</name>
+      <description>Высота</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="fcf913d4-22e0-46f8-9c96-ee7d3ce86855">
+      <name>Лояльность</name>
+      <description>Лояльность</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="08a7de00-ddcc-45af-9c91-2bc220870654">
+      <name>Регион</name>
+      <description>Регион</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="b8921950-5231-4ff1-b377-7e16b2a56e4f">
+      <name>Ширина</name>
+      <description>Ширина</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

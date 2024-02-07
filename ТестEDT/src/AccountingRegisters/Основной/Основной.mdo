@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da5d949a-51be-4216-acac-0b9a8e21fee7">
+  <producedTypes>
+    <selectionType typeId="16ba684c-8518-43e8-8c4d-d0b6e4b3dc4a" valueTypeId="8bdae05b-3205-46dc-bbdb-6373af28bd7e"/>
+    <listType typeId="f135c95c-6555-4e36-899b-28995f1938b7" valueTypeId="d433146e-8adf-4707-81a9-bb8b32a685f0"/>
+    <managerType typeId="ae7e44d7-e9ff-4b6c-94dc-70c388c850dc" valueTypeId="ab1f3975-0588-46cb-b3b4-01444717a924"/>
+    <recordSetType typeId="03803637-a34d-4c1e-8731-dda7f4539e3b" valueTypeId="b1950958-88fa-4578-84ec-92315a9af2e3"/>
+    <recordKeyType typeId="46961a9b-c67c-4b18-86a1-5a45df4c5a61" valueTypeId="16814067-7b23-45b1-848f-bf9f4f0a7a98"/>
+    <recordType typeId="3f0c7eec-2547-4632-9953-9265bfcc8a6c" valueTypeId="f1c24eb2-273f-479b-ace4-55b4d04b32dd"/>
+    <extDimensionsType typeId="cf52c0b9-6d94-4515-b804-fd9b5402bbd2" valueTypeId="a7cc979f-fec8-45f9-8874-0004205fa43b"/>
+  </producedTypes>
+  <name>Основной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="fde832fc-cc4a-401a-a315-332ee0d612fb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="ed3af599-128f-481b-a016-b1cb65001c07">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="9399b045-7699-4512-bf10-c4aaabd3b75d">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:AccountingRegister>

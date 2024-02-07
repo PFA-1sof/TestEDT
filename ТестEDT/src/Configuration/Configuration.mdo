@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52d237c4-2c67-4359-8767-f6f46e46d25e">
+  <name>КонфигурацияСКД_УЦ3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система компоновки данных для программистов</value>
+  </synonym>
+  <comment>Система компоновки данных для программистов</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a16c4099-06fd-47b1-949e-5067a5ddb03b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="90657473-1831-4fc0-9db4-dc1cb16cc3ea"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f2d571d5-6be2-42fe-a5b8-7d4946be1e67"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cdda9196-0060-493b-a274-62d7f1184f2f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0064100a-43a7-4f42-8c28-bd8ffd3e117b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0123b95b-92ff-4693-adcd-8f16c391953b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9dfddb01-c5f8-4900-a8c2-bc9f0e248050"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="aa9043c4-9c87-4729-8c96-db962f7db704">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Данные</subsystems>
+  <subsystems>Subsystem.ПервыйРаздел</subsystems>
+  <subsystems>Subsystem.ВторойРаздел</subsystems>
+  <subsystems>Subsystem.Самостоятельные</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Полная</roles>
+  <commonTemplates>CommonTemplate.Корпоративный</commonTemplates>
+  <commonModules>CommonModule.Общее</commonModules>
+  <constants>Constant.ПутьДоКаталога</constants>
+  <constants>Constant.ЛоготипКомпании</constants>
+  <commonForms>CommonForm.ЛоготипКомпании</commonForms>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договора</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ХарактеристикаНоменклатуры</catalogs>
+  <catalogs>Catalog.ПользовательскиеНастройки</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
+  <catalogs>Catalog.ЗначенияСубконто</catalogs>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.ВидыКартинок</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Комплектация</informationRegisters>
+  <informationRegisters>InformationRegister.ИспользуемыеКартинки</informationRegisters>
+  <informationRegisters>InformationRegister.ЛимитыНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваСкладов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиВзаиморасчетов</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Субконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Основной</accountingRegisters>
+</mdclass:Configuration>

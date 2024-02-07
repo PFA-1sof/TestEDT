@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c3bc68-b923-42c9-82a9-2bcf7f9e3dde">
+  <producedTypes>
+    <managerType typeId="4c1695ff-1611-47a7-9fbe-c086f5101677" valueTypeId="cbc9e107-2501-40ee-b979-c285ecae5d5b"/>
+    <valueManagerType typeId="00308443-6f45-4429-92bc-066bbe44fb6b" valueTypeId="a8aef30b-2dc3-464c-a2bd-3575d38a5d51"/>
+    <valueKeyType typeId="8becdd8f-4a95-5b4a-839b-90e0fe4d6805" valueTypeId="9494d154-547e-5ecc-a574-853c626c1574"/>
+  </producedTypes>
+  <name>ПутьДоКаталога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь до каталога</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3f9d1a4-668b-400f-9cc6-401c211fc6d3">
+  <producedTypes>
+    <objectType typeId="16c1917c-7c02-429c-8bfd-04e7483c785e" valueTypeId="a5e2da6a-f845-4657-8595-d7a3e0be58cf"/>
+    <refType typeId="507983dd-91de-4af7-960c-aba5a87c6254" valueTypeId="8b09d81d-d943-4d30-a4bb-c4bd4122a2fd"/>
+    <selectionType typeId="74ee64a5-43fc-43cf-bbe8-6d3d76cbc25a" valueTypeId="e73fd7ab-0994-4622-9f6b-50e6c11a6e17"/>
+    <listType typeId="cda72b3a-0af1-4b84-bba1-1f90b5281a65" valueTypeId="f04cfe84-f547-4585-a398-c1854d9efd84"/>
+    <managerType typeId="7e5cfee0-17af-4640-90bb-83676a402905" valueTypeId="5825f966-328a-467a-849a-7232a0d92700"/>
+  </producedTypes>
+  <name>Серии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Серии.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Серии.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5e71f687-1e88-461d-98b3-264e837d966f">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2520c3d-8bd4-410f-8f77-c53456e46f36">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

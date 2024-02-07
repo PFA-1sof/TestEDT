@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5255cd-0bc4-40f2-ac2f-78df0d49a58d">
+  <producedTypes>
+    <objectType typeId="1f68290c-f557-4533-88d8-81cf443200f2" valueTypeId="cb3c710b-6631-4430-a0e2-a9c17d5e02b3"/>
+    <refType typeId="deffe387-64cf-4aa5-9124-4945dda92825" valueTypeId="2c99c690-f004-40fa-87ce-8d140d0db499"/>
+    <selectionType typeId="66e34f1a-c514-48fb-af1f-e3a6b62c4caf" valueTypeId="e5b65900-0d36-4fb3-82a8-5727a4da213b"/>
+    <listType typeId="6fd69c42-96ab-4e8d-b6ed-af7ca81aa554" valueTypeId="485a72f2-3ab9-4a7d-afac-d599f3aa8e76"/>
+    <managerType typeId="e5aaff65-aa2f-41ce-8036-1ee295c53cb5" valueTypeId="e02a372b-2887-469a-b9d3-0093ca6f37db"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Ref</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.СвойстваСкладов</characteristicValues>
+    <objectField>InformationRegister.СвойстваСкладов.Dimension.Склад</objectField>
+    <typeField>InformationRegister.СвойстваСкладов.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.СвойстваСкладов.Resource.ЗначениеСвойства</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
+  <forms uuid="c3b4f518-a5c3-41a7-9922-3f140c04aae1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

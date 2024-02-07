@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e36555e-44f3-4718-974e-4347a84c7753">
+  <producedTypes>
+    <selectionType typeId="675cc514-71ee-4bb0-8f0e-df43a3d4185b" valueTypeId="b29631b8-d1df-4604-bcff-11f01a27aadc"/>
+    <listType typeId="50082390-29fb-42d5-91c4-16ef60d6801e" valueTypeId="f9fed980-044c-4889-b414-caf62bffa74b"/>
+    <managerType typeId="935c3f2c-fc10-4363-8b73-5a646efb7774" valueTypeId="bbc10259-64bb-4556-8829-040adffdc570"/>
+    <recordSetType typeId="779f075d-ff39-404b-84a2-859ff6decf33" valueTypeId="ad779f31-a1ba-4f81-945b-7e0a5a167f4d"/>
+    <recordKeyType typeId="f20ba6f2-ee23-44d9-b41d-b9d71be14d66" valueTypeId="f69e5b96-366a-4be4-a854-0d1646d40ccf"/>
+    <recordType typeId="32eb36e3-c108-48ef-92e1-3ca41cd8c1da" valueTypeId="9ca77889-0082-429e-8cc6-59f47c2958cc"/>
+    <recordManagerType typeId="2876a6c6-e48b-4577-a6d2-872f6b34bd14" valueTypeId="259df29a-9034-4a15-b297-11575d21f104"/>
+  </producedTypes>
+  <name>ЛимитыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимиты номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="30dea443-fe08-46ae-bfd9-d2d555c70747">
+    <name>Лимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bf5c18b0-737d-49b4-8a7e-84ff4007e7a1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
